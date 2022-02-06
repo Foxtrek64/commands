@@ -3,17 +3,12 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-.idea/workspace.xml
-.idea/dictionaries
-.idea/misc.xml
-.idea/libraries
-.idea/uiDesigner.xml
-.idea/jarRepositories.xml
-.idea/kotlinc.xml
-.idea/modules.xml
-.idea/usage.statistics.xml
-.idea/checkstyle-idea.xml
-**/*.iml
+# User-specific stuff
+.idea/
+
+*.iml
+*.ipr
+*.iws
 docs/**/*.zip
 */docs
 
@@ -33,3 +28,21 @@ hs_err_pid*
 .classpath
 .project
 
+# IntelliJ
+out/
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+.gradle
+build/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Cache of project
+.gradletasknamecache
+
+**/build/
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
